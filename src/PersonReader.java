@@ -42,7 +42,7 @@ public class PersonReader {
             e.printStackTrace();
         }
         catch (IOException e){
-
+            e.printStackTrace();
         }
     }
 }
