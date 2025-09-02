@@ -14,7 +14,7 @@ public class PersonGenerator {
         boolean met = false;
 
         File workingDirectory = new File(System.getProperty("user.dir"));
-        Path file = Paths.get(workingDirectory.getPath() + "\\src\\peoplesData.txt");
+        Path file = Paths.get(workingDirectory.getPath(), "src", "PersonTestData.txt");
 
         String record = "";
         String ID = "";
